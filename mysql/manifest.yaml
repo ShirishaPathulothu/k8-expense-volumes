@@ -4,7 +4,7 @@ metadata:
   name: mysql-headless
   namespace: expense
 spec:
-  clusterIp: None # for headless service there is no clusterip
+  clusterIP: None # for headless service there is no clusterip
   selector:
     app: mysql
     tier: db
